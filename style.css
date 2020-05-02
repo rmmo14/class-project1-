@@ -1,0 +1,80 @@
+/* entire page */
+body {
+    background-color: rgb(88, 107, 49);
+    font-family: 'Gil Sans';
+    color: rgb(31,44,4);
+}
+
+/* header area */
+header {
+    margin: 0px auto;
+    width: 960px;
+    background-color: rgba(214,233,176);
+    height: 180px;
+}
+ header > img {
+    width: 200px;
+    margin: 10px;
+    float: left;
+ } 
+
+ /* .resize {
+     width: 250px
+ }   */
+
+ h1 {
+     text-align: center;
+     padding: 30px; 
+     margin-right: 150px;
+ } 
+
+ header > nav > ul > li {
+     display: inline-block;
+     width: 150px; 
+     text-align: center;
+
+     /* mock button styling */
+     background-color: rgb(164,185,122);
+     border: 1px solid black;
+     border-radius: 25px;
+     margin: 5px;
+     padding: 5px;
+ }
+
+ header > nav {
+     float: right;
+ }
+
+ header > nav > ul > li > a {
+     color: inherit; /*will make hyperlinks same color as CSS code*/
+
+ }
+
+/* main body area */
+
+/* body > main > article { (This makes all articles be at the same position)
+    position: absolute;
+    left: 0px;
+    width: 300px; 
+    border: none;
+    padding: 10px;
+} */
+
+article {
+    margin: 0px auto;
+    width: 960px;
+    width: 250px; 
+    display: inline-block;
+}
+
+body > main > article > img {
+    border: 3px solid rgb(164,185,122);
+    padding: 20px;
+    width: 250px;
+    /* display: inline;  */
+} 
+
+/* main {
+
+} */
+/* footer */

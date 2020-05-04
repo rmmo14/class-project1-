@@ -1,7 +1,7 @@
 /* entire page */
 body {
     background-color: rgb(88, 107, 49);
-    font-family: 'Gil Sans';
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(31,44,4);
 }
 
@@ -18,15 +18,24 @@ header {
     float: left;
  } 
 
- /* .resize {
-     width: 250px
- }   */
 
  h1 {
      text-align: center;
-     padding: 30px; 
+     padding: 0px; 
      margin-right: 150px;
  } 
+
+ h3 {
+    color: red;
+    text-align: center;
+    padding: 0px;
+    margin-right: 150px;
+ }
+
+ p {
+     color: black;
+     padding: 3px;
+ }
 
  header > nav > ul > li {
      display: inline-block;
@@ -43,6 +52,8 @@ header {
 
  header > nav {
      float: right;
+     margin-top: -25px;
+     margin-bottom: -15px;
  }
 
  header > nav > ul > li > a {
@@ -50,31 +61,55 @@ header {
 
  }
 
+
 /* main body area */
 
-/* body > main > article { (This makes all articles be at the same position)
-    position: absolute;
-    left: 0px;
-    width: 300px; 
-    border: none;
-    padding: 10px;
-} */
+h2 {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
 
-article {
+body > main {
     margin: 0px auto;
     width: 960px;
-    width: 250px; 
-    display: inline-block;
 }
+
+body > main > article {
+    border: 3px solid black;
+    padding: 10px;
+    width: 260px;
+    display: inline-block; 
+}
+
+
+#book {
+    margin-left: -180px;
+    margin-top: 50px;
+}
+
+/* #book {
+    
+}*/
+
+#mistakes {
+    margin-bottom: 50px;
+}
+
+/* #practice {
+    margin-top: 50px;
+}  */
+
 
 body > main > article > img {
     border: 3px solid rgb(164,185,122);
-    padding: 20px;
-    width: 250px;
-    /* display: inline;  */
+    padding: 10px;
+    width: 190px;
+    margin-left: 20px;
 } 
 
-/* main {
 
-} */
 /* footer */
+footer {
+    display: block;
+}

@@ -63,7 +63,11 @@ header {
 
 
 /* main body area */
-
+button {
+    border: 2px solid (rgb(164,185,122));
+    float: right;
+    margin-bottom: -25px;
+}
 h2 {
     text-align: center;
     color: black;

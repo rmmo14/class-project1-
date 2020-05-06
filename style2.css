@@ -64,9 +64,18 @@ header {
 
 /* main body area */
 button {
-    border: 2px solid (rgb(164,185,122));
-    float: right;
+    /* border: 2px solid (rgb(164,185,122)); */
+    /* float: right; */
     margin-bottom: -25px;
+}
+
+#pruf {
+    float: right;
+}
+
+#assess {
+    float: right;
+    margin-right: 45px;
 }
 
 h2 {
@@ -80,35 +89,48 @@ body > main {
     width: 960px;
 }
 
-body > main > article {
-    border: 3px solid black;
-    padding: 10px;
-    width: 260px;
-    display: inline-block; 
-}
-
 
 #book {
-    margin-left: -180px;
-    margin-top: 50px;
+    
+    border: 2px solid black;
+    margin-left: -205px;
+    margin-top: 5px;
+    float: left;
+    width: 250px;
+    padding: 10px;
 }
 
 h4 {
+    text-align: center;
     color: rgb(88, 107, 49);
     border: 2px solid black;
     width: 150px;
     float: right;
-    margin-top: -125px;
+    margin-top: -135px;
+    margin-right: 10px;
 }
 
 #mistakes {
-    margin-top: 50px;
+    border: 2px solid black;
+    margin-top: 110px;
+    float: left; 
+    width: 250px;
+    margin-left: 50px;
+    padding: 10px;
 }
 
-#suggestion {
-    float: right;
+#practice {
+    border: 2px solid black;
+    margin-left: 50px;
+    float: left;
+    width: 250px;
+    margin-top: 200px;
+    padding: 10px;
 }
 
+br {
+    clear: left;
+}
 
 
 body > main > article > img {
@@ -121,5 +143,6 @@ body > main > article > img {
 
 /* footer */
 footer {
-    display: block;
+    position: fixed;
+    bottom: 0px;
 }

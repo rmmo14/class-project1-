@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial scale=1.0">
     <title>Mathematics Help</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <script src="jscmd/app.js"></script>
 </head>
 
@@ -27,7 +27,8 @@
     </header>
 
     <main>
-        <button onclick="myFunction()">Proof</button>
+        <button onclick="myFunction()" id = "pruf">Proof</button>
+        <button onclick="assessMath()" id="assess">Math Quiz</button>
         <!-- <script> 
             function myFunction() {
                 confirm("assume by contradiction the sqrt2 is rational, then sqrt2 can be expressed as p:q where p,q are integers, q neq 0, and gcd(p,q)=1. Now with sqrt2=p:q, squaring both sides will give 2=(p:q)^(2), moving over the q gives 2q^(2)=p^(2). This implies p^(2) is even and thus p is even of the form p=2k, where k is an integer. By substitution then 2q^(2)=p^(2)=(2k)^(2) which gives q^(2)=2k^(2). This implies q^(2) is even and thus q is even. BUT, this contradicts the fact that gcd(p,q)=1, therefore sqrt2 is not rational. QED.*");

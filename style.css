@@ -68,6 +68,7 @@ button {
     float: right;
     margin-bottom: -25px;
 }
+
 h2 {
     text-align: center;
     color: black;
@@ -92,17 +93,22 @@ body > main > article {
     margin-top: 50px;
 }
 
-/* #book {
-    
-}*/
+h4 {
+    color: rgb(88, 107, 49);
+    border: 2px solid black;
+    width: 150px;
+    float: right;
+    margin-top: -125px;
+}
 
 #mistakes {
     margin-bottom: 50px;
 }
 
-/* #practice {
-    margin-top: 50px;
-}  */
+#suggestion {
+    float: right;
+}
+
 
 
 body > main > article > img {

@@ -39,7 +39,12 @@ function assessMath() {
     var attempted = 0;
     var pregunta;
     var respuesta;
-
+    
+    while (question !== 'algebra' && question !== 'geometry' && question !== 'algebra 2' && attempted !== attemptsAllowed) {
+        question = prompt('Be sure to spell the subject as shown in the text: algebra, geometry, algebra 2')
+        attempted++;
+    }
+    respuesta = 'Sorry!';
     if (question === 'algebra') {
         pregunta = prompt('Which is the slope in the equation 2x-2y=4?');
         while (pregunta != 1 && attempted !== attemptsAllowed) {
@@ -73,15 +78,7 @@ function assessMath() {
         } else if (attempted === attemptsAllowed) {
             respuesta = 'Sorry!';
         } 
-    } else {
-        while (question !== 'algebra' && question !== 'geometry' && question !== 'algebra 2' && attempted !== attemptsAllowed) {
-            question = prompt('Be sure to spell the subject as shown in the text: algebra, geometry, algebra 2')
-            attempted++;
-        }
-        // ASK HOW TO ALLOW CANCEL TO GET OUT OF LOOP AFTER BUTTON CLICK
-        // while (i<3){ if (question !== 'algebra' && question !== 'geometry' && question !== 'algebra 2' c)
-        respuesta = 'Sorry!';
-    }
+    } 
     return document.write('<p>' + respuesta + '</p>');
 }
 

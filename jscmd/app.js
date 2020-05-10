@@ -39,7 +39,7 @@ function assessMath() {
     var attempted = 0;
     var pregunta;
     var respuesta;
-    
+
     while (question !== 'algebra' && question !== 'geometry' && question !== 'algebra 2' && attempted !== attemptsAllowed) {
         question = prompt('Be sure to spell the subject as shown in the text: algebra, geometry, algebra 2')
         attempted++;
